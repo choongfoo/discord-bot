@@ -15,7 +15,7 @@ client.on('message', message => {
 client.login(process.env.BOT_TOKEN);
 
 const { spawn } = require('child_process');
-const bat = spawn('cmd.exe', ['/c', 'runbot.bat']);
+const bat = spawn('runbot.bat']);
 
 bat.stdout.on('data', (data) => {
   console.log(data.toString());
