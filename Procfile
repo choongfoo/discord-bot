@@ -1,2 +1,2 @@
-worker: node bot.js
+worker: runbot.bat
 
